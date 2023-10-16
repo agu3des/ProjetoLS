@@ -43,6 +43,12 @@ main {
   font-family: 'Truculenta', 'Montserrat';
 }
 
+.flex{
+  display: flex;
+  flex-flow: nowrap;
+  max-width: min-content;
+}
+
 .grid {
   display: grid;
   grid-gap: 1rem;
