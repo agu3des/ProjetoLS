@@ -369,4 +369,9 @@ svg :hover {
   .noticias {
     width: 30%;
   }
+
+  .container{
+    gap: 2%;
+    margin-left: 5%;
+  }
 }
