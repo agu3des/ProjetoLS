@@ -14,10 +14,11 @@ body {
 }
 
 body>header {
-  background-color: #fff;
+  background-color: rgba(190, 139, 139, 0.81);
   padding: 1.5rem 0;
   border-bottom: .1rem solid #ccc; 
   text-align: center;
+  display: flex;
 }
 
 body>main {
@@ -56,7 +57,8 @@ body>main {
 }
 
 .logo {
-  height: 2.2rem;
+  height: 4.2rem;
+  margin-left: 40%;
 }
 
 .catalog {
