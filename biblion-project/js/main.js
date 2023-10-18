@@ -1,6 +1,8 @@
 const fallbackImage = 'http://dummyimage.com/470x594/fff/000?text=imagem+indisponível'
 const catalogContainer = document.querySelector('.catalog')
 const total = document.querySelector('.total')
+const off = document.querySelector('#off')
+const filters = [off]
 let catalog = []
 
 fetch('data/products.json')
@@ -12,7 +14,6 @@ fetch('data/products.json')
 
 filters.map(f => f.addEventListener('change', () => loadCatalog()))
 
-//imagem
 function loadFallbackImage() {
   const imgs = Array.from(document.querySelectorAll('img'))
   imgs.forEach(img => {
@@ -22,7 +23,6 @@ function loadFallbackImage() {
   })
 }
 
-//pegar produto
 function getProduct(product) {
   return `<li class="product-item">
     <div class="product-box-image">
@@ -37,11 +37,27 @@ function getProduct(product) {
       </p>
       ${product.on_sale ? getSale(product) : ''}
     </div>
+    <ul class="product-sizes">
+      ${product.sizes.filter(s => s.available).map(getSize).join('')}
+    </ul>
   </li>`
 }
 
+function getSale(product) {
+  return `<p class="product-sale">
+    <del class="regular-price">${product.regular_price}</del>
+    <span class="stamp">(${product.discount_percentage} OFF)</span>
+  </p>`
+}
 
-//filtro
+function getImageStamp(discount_percentage) {
+  return `<span class="stamp">${discount_percentage} OFF</span>`
+}
+
+function getSize(size) {
+  return `<li><a href="#" class="size ${size.available ? 'available' : ''}">${size.size}</a></li>`
+}
+
 function filterProducts() {
   if (off.checked)
     return catalog.products.filter(p => p.on_sale)
@@ -49,7 +65,6 @@ function filterProducts() {
     return catalog.products
 }
 
-//catálogo
 function loadCatalog() {
   const products = filterProducts()
   total.innerHTML = `${products.length} itens`
