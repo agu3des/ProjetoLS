@@ -43,6 +43,11 @@ main {
   font-family: 'Truculenta', 'Montserrat';
 }
 
+.flex{
+  display: flex;
+  flex-flow: nowrap;
+}
+
 .grid {
   display: grid;
   grid-gap: 1rem;
@@ -368,5 +373,10 @@ svg :hover {
 
   .noticias {
     width: 30%;
+  }
+
+  .container{
+    gap: 2%;
+    margin-left: 5%;
   }
 }
