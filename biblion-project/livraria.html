@@ -4,14 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Biblion</title>
+    <title>Livraria Biblion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="style/img.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
-    <div class="container lg:max-w-screen-lg mx-auto">
-      <h1 class="text-center text-2xl my-12 font-bold">LIVROS</h1>
-      <div class="books grid grid-cols-3 gap-3"></div>
+  <style>
+  .logo {
+    height: 4.2rem;
+    margin-left: 40%;
+  }
+  
+  .arrow a {
+    color: white;
+  }
+
+  .arrow {
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgba(190, 139, 139, 0.81);
+    margin-bottom: 6%;
+  }
+
+  .arrow a:hover {
+    color: deeppink;
+  }
+  </style>
+  <body class="dark:bg-gray-800 dark:text-white">
+    <div class="arrow flex">
+      <a href="index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-house"
+          viewBox="0 0 16 16">
+          <path
+            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
+        </svg>
+      </a>
+      <img src="img/logo.png" alt="logo" class="logo">
+    </div>
+    
+    <div class="lg:max-w-screen-lg mx-auto">
+      <div class="books grid grid-cols-3 gap-6"></div>
       <script src="js/main.js" type="module"></script> 
     </div>
   </body>
+>>>>>>> main
 </html>
