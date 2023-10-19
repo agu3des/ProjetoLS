@@ -1,26 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Amaro</title>
-  <link rel="stylesheet" href="style/loja.css">
-</head>
-<body>
-  <header>
-    <img src="img/amaro.svg" alt="logo" class="logo">
-  </header>
-  <main>
-    <div class="toolbar">
-      <span class="total"></span>
-      <div class="filter">
-        <input type="checkbox" name="filter" id="off">
-        <label for="off">PROMOÇÃO</label>
-      </div>
-    </div> 
-    <ul class="catalog"></ul>
-  </main>
-  <script src="js/main.js"></script>
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="container lg:max-w-screen-lg mx-auto">
+      <h1 class="text-center text-2xl my-12 font-bold">LVIROS</h1>
+      <div class="books grid grid-cols-3 gap-3"></div>
+      <script src="js/main.js" type="module"></script>
+    </div>
+  </body>
 </html>
