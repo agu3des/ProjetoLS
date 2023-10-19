@@ -1,10 +1,11 @@
 export function BooksCards(books) {
     return `
       <div
-        id="book-${books.image}"
+        id="book-${books.id}"
         class="bg-white shadow-md rounded-lg p-4"
       >
         <div class="flex justify-between items-center">
+          <p><img src="${books.image}" width="100px"></img></p>
           <h3 class="text-lg font-semibold text-gray-700">
             ${books.name}
           </h3>
@@ -21,3 +22,4 @@ export function BooksCards(books) {
     `;
   };
   
+  //Aqui é onde aplica o estilo dos livros na página. Books são os livros cadastrados no documento books.js
