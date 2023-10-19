@@ -10,10 +10,10 @@ export const books = [
     },
     {
       id: '2',
-      name: 'O mundo de Sofia',
-      value: 20.0,
-      editora: 'Cia das Letras',
-      image: 'https://m.media-amazon.com/images/I/81KfUf8JkcL._SY425_.jpg',
+      name: 'É assim que acaba',
+      value: 10.0,
+      editora: 'Galera Record',
+      image: 'https://m.media-amazon.com/images/I/513NSXK2nLL.jpg',
     },
     {
       id: '3',
