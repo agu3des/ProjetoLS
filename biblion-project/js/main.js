@@ -8,4 +8,5 @@ booksGrid.innerHTML = books
   .join('');
 
 
-  //Aqui é onde os documentos, as funções são chamadas e com a função map, elas são "iteradas". Esse documento é chamado no arquivo livraria.js
+  //Aqui é onde os documentos, as funções são chamadas e com a função map, elas são "iteradas". 
+  //Esse documento é chamado no arquivo livraria.js.
