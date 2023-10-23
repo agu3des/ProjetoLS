@@ -19,7 +19,7 @@ Requisitos Mínimos:
 Uma IDE e um navegador instalado.
 
 Replit:
-
+https://replit.com/@agu3des/Projeto-Biblion?v=1
 
 Repositório:
 https://github.com/agu3des/Projeto-Biblion
