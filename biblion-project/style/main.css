@@ -237,12 +237,6 @@ svg :hover {
     gap: 15px;
   }
 
-  .menu ul li {
-    top: 25px;
-    left: 0;
-    display: none;
-  }
-
   h1 {
     font-size: 30px;
     text-align: center;
