@@ -8,12 +8,10 @@
   <link href="style/main.css" rel="stylesheet" type="text/css" />
   <link href="style/img.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="img/icon/iconnav.png">
   <link rel="https://fontawesome.com/icons/ellipsis-stroke-vertical?f=classic&s=thin&pc=%23be8b8b">
   <script src="https://cdn.tailwindcss.com"></script>
@@ -23,15 +21,14 @@
 
 <body class="dark:bg-gray-800 dark:text-white">
   <!--HEADER-->
-  <header class="z-[9999] bg-[#be8b8b]">
-    <section class="dark:bg-gray-800">
-      <h1
-        class="text-black transition duration-75 dark:text-pink-400 group-hover:text-gray-900 dark:group-hover:text-white"
-        id="#home">Biblion</h1>
+  <header class="z-[9999]">
+    <header class="flex justify-between navbar pl-4 pt-2 pb-2 dark:bg-gray-950">
+      <h1 class="text-black text-2xl transition duration-75 dark:text-pink-400 group-hover:text-gray-900 dark:group-hover:text-white" id="#home">Biblion</h1>
+      
       <!-- drawer init and show -->
       <div class="text-center">
         <button
-          class="button text-black bg-white-700 hover:bg-pink-200 focus:ring-4 focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:text-white dark:hover:bg-gray-800 focus:outline-none dark:focus:ring-pink-500"
+          class="button text-black text-2xl bg-white-700 hover:bg-pink-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:text-white dark:hover:bg-gray-800"
           type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation"
           aria-controls="drawer-navigation">
           Menu
@@ -40,56 +37,56 @@
 
       <!-- drawer component -->
       <div id="drawer-navigation"
-        class="font fixed top-0 left-0 z-40 w-64 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white dark:bg-gray-800"
+        class="font fixed top-0 left-0 z-40 w-64 h-screen p-4 overflow-y-auto transition-transform -translate-x-full menu dark:bg-gray-800"
         tabindex="-1" aria-labelledby="drawer-navigation-label">
-        <h5 id="drawer-navigation-label" class="text-base font-semibold text-pink-500 uppercase dark:text-pink-400">Menu
+        <h5 id="drawer-navigation-label" class="text-3xl font-extrabold text-black uppercase dark:text-white">BIBLION
         </h5>
         <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation"
-          class="text-pink-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white">
+          class="text-pink-400 bg-black hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white">
           <span class="sr-only">Close menu</span>
         </button>
         <div class="py-4 overflow-y-auto">
           <ul class="space-y-2 font-medium">
             <li>
               <a href="#home"
-                class="flex items-center p-2 text-pink-300 rounded-lg dark:text-pink hover:bg-gray-100 dark:hover:bg-gray-700">
+                class="flex items-center p-2 text-white dark:text-pink hover:bg-gray-100 hover:text-black dark:hover:bg-gray-700 menuElement">
                 <span class="flex-1 ml-3 whitespace-nowrap">Home</span>
               </a>
             </li>
             <li>
               <a href="#noticias"
-                class="flex items-center p-2 text-pink-300 rounded-lg dark:text-pink hover:bg-gray-100 dark:hover:bg-gray-700">
+                class="flex items-center p-2 text-white dark:text-pink hover:bg-gray-100 hover:text-black dark:hover:bg-gray-700 menuElement">
                 <span class="flex-1 ml-3 whitespace-nowrap">Notícias</span>
               </a>
             </li>
             <li>
               <a href="#indicacoes"
-                class="flex items-center p-2 text-pink-300 rounded-lg dark:text-pink hover:bg-gray-100 dark:hover:bg-gray-700">
+                class="flex items-center p-2 text-white dark:text-pink hover:bg-gray-100 hover:text-black dark:hover:bg-gray-700 menuElement">
                 <span class="flex-1 ml-3 whitespace-nowrap">Indicações</span>
               </a>
             </li>
             <li>
               <a href="ambiente.html"
-                class="flex items-center p-2 text-pink-300 rounded-lg dark:text-pink hover:bg-gray-100 dark:hover:bg-gray-700">
+                class="flex items-center p-2 text-white dark:text-pink hover:bg-gray-100 hover:text-black dark:hover:bg-gray-700 menuElement">
                 <span class="flex-1 ml-3 whitespace-nowrap">Eduque-se</span>
               </a>
             </li>
             <li>
               <a href="livraria.html"
-                class="flex items-center p-2 text-pink-300 rounded-lg dark:text-pink hover:bg-gray-100 dark:hover:bg-gray-700">
+                class="flex items-center p-2 text-white dark:text-pink hover:bg-gray-100 hover:text-black dark:hover:bg-gray-700 menuElement">
                 <span class="flex-1 ml-3 whitespace-nowrap">Livraria</span>
               </a>
             </li>
             <li>
               <a href="#sobre"
-                class="flex items-center p-2 text-pink-300 rounded-lg dark:text-pink hover:bg-gray-100 dark:hover:bg-gray-700">
+                class="flex items-center p-2 text-white dark:text-pink hover:bg-gray-100 hover:text-black dark:hover:bg-gray-700 menuElement">
                 <span class="flex-1 ml-3 whitespace-nowrap">Sobre</span>
               </a>
             </li>
           </ul>
         </div>
       </div>
-    </section>
+    </div>
   </header>
   <!--MAIN-->
   <main class="mt-24">
@@ -164,7 +161,7 @@
           <time datetime="2020-03-16" class="text-gray-500 dark:text-white">Mar 16, 2020</time>
         </div>
         <div class="group relative">
-          <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 dark:text-white">
+          <h3 class="mt-3 text-lg leading-6 text-gray-900 group-hover:text-gray-600 dark:text-white">
             <a class="dark:hover:text-pink-300"
               href="https://www.folhape.com.br/cultura/mulheres-buscam-maior-representatividade-na literatura/216267/"
               target="_blank">
@@ -185,7 +182,7 @@
           <time datetime="2020-03-16" class="text-gray-500 dark:text-white">Out 11, 2023</time>
         </div>
         <div class="group relative">
-          <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 dark:text-white">
+          <h3 class="mt-3 text-lg leading-6 text-gray-900 group-hover:text-gray-600 dark:text-white">
             <a class="dark:hover:text-pink-300"
               href="https://www.folhape.com.br/cultura/mulheres-buscam-maior-representatividade-na literatura/216267/"
               target="_blank">
@@ -209,7 +206,7 @@
           <time datetime="2020-03-16" class="text-gray-500 dark:text-white">Mar 16, 2020</time>
         </div>
         <div class="group relative">
-          <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 dark:text-white">
+          <h3 class="mt-3 text-lg leading-6 text-gray-900 group-hover:text-gray-600 dark:text-white">
             <a class="dark:hover:text-pink-300"
               href="//guiadoestudante.abril.com.br/estudo/conheca-raizes-do-brasil-o-livro-que-sempre-cai-nos-vestibulares"
               target="_blank">
@@ -228,7 +225,7 @@
           <time datetime="2020-03-16" class="text-gray-500 dark:text-white">Mar 16, 2020</time>
         </div>
         <div class="group relative">
-          <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 dark:text-white">
+          <h3 class="mt-3 text-lg leading-6 text-gray-900 group-hover:text-gray-600 dark:text-white">
             <a class="dark:hover:text-pink-300"
               href="https://www.publishnews.com.br/materias/2023/02/28/calendario-de-eventos-literarios-em-2023"
               target="_blank">
@@ -301,11 +298,22 @@
       <a href="#eduque-se" id="eduque-se"
         class="relative z-10 mt-5 rounded-full bg-rose-200 dark:bg-gray-50 px-3 py-1.5 font-medium dark:text-black hover:bg-gray-100 font-semibold">Por
         que fazemos isso?</a>
+      <p class="p_adjust mt-5 text-justify line-clamp-3 text-sm leading-6 text-gray-600 dark:text-white">A produção de livros, tal como conhecemos nos dias atuais, 
+        vem se desenvolvendo ao longo de séculos. A necessidade de guardar informações e conhecimentos a respeito de diversos assuntos é uma característica 
+        de grande parte da humanidade (alguns grupos étnicos utilizam a tradição oral).
+        Papiro, placas de argila, confecção manual de livros na idade média (papel e couro) - neste momento essa produção estava, de modo geral, ligada 
+        ao clero, em se tratando do mundo ocidental -, até a prensa com tipos móveis de Johannes Gutenberg e a impressão da Bíblia. Estes são alguns exemplos 
+        da história que envolve o percurso deste objeto tão importante.
+        Atualmente podemos adquirir este produto com muita facilidade e com preços variados pois são produzidos em larga escala. Neste sentido, analisando esta
+         problemática que envolve a indústria editorial e o impacto da mesma no meio ambiente, buscaremos discutir, baseado em estatísticas, o tamanho desse 
+         impacto em escala mundial, nacional e regional, como também 
+        citaremos algumas iniciativas que viabilizam o consumo consciente através de websites e e-commerce, no caso de sebos virtuais, 
+        além de abordar a reeducação do consumo, em uma página educativa.     
       <p><a href="ambiente.html" target="_blank">Leia mais...</a></p>
     </div>
   </main>
   <!-- FOOTER -->
-  <footer class="dark:bg-gray-800">
+  <footer class="bg-[#debcbe] dark:bg-gray-950">
     <div class="footer-column" id="sobre">
       <h3>Nossos contatos:</h3>
       <ul class="footer-icons">
@@ -340,7 +348,7 @@
       <ul>
         <li>
           <i>
-            <a href="indicacoes.html" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg"
+            <a class="justify-start" href="indicacoes.html" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg"
                 width="50" height="50" fill="currentColor" viewBox="0 0 16 16">
                 <path
                   d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
