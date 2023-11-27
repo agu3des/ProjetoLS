@@ -13,7 +13,7 @@ Funcionalidades:
 4. Blocos contendo indicações de livros que ao serem clicados direcionam para sua compra.
 5. Sobre nós ao rodapé da página para os usuários entrarem em contato com a plataforma ou enviarem alguma indicação de livro.
 6. Aba de livraria
-7. Págian de educação ambiental
+7. Página de educação ambiental
 
 Requisitos Mínimos:
 Uma IDE e um navegador instalado.
