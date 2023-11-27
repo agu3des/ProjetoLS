@@ -4,7 +4,7 @@ export const books = [
   {
     id: '1',
     name: 'O Mundo de Sofia',
-    value: 53.78,
+    value: 13.78,
     autor: 'Jostein Gaarder',
     editora: 'Cia das Letras',
     image: 'https://m.media-amazon.com/images/I/81KfUf8JkcL._SY425_.jpg',
@@ -12,7 +12,7 @@ export const books = [
   {
     id: '2',
     name: 'É Assim que Acaba',
-    value: 29.9,
+    value: 19.9,
     autor: 'Colleen Hoover',
     editora: 'Galera',
     image: 'https://m.media-amazon.com/images/I/91r5G8RxqfL._SL1500_.jpg',
@@ -20,7 +20,7 @@ export const books = [
   {
     id: '3',
     name: 'A Biblioteca da Meia-Noite',
-    value: 39.52,
+    value: 9.52,
     autor: ' Matt Haig',
     editora: 'Bertrand Brasil',
     image: 'https://m.media-amazon.com/images/I/81iqH8dpjuL._SL1500_.jpg',
@@ -28,7 +28,7 @@ export const books = [
   {
     id: '4',
     name: 'Os sete maridos de Evelyn Hugo',
-    value: 47.47,
+    value: 17.47,
     autor: ' Taylor Jenkins Reid',
     editora: 'Paralela',
     image: 'https://m.media-amazon.com/images/I/91yEPgRcELL._SL1500_.jpg',
@@ -44,7 +44,7 @@ export const books = [
   {
     id: '6',
     name: 'Irmãos Karamazov',
-    value: 68.79,
+    value: 28.79,
     autor: ' Dostoiévski',
     editora: 'Garnier',
     image: 'https://m.media-amazon.com/images/I/81IGywQ0B1L._SL1500_.jpg',
@@ -52,7 +52,7 @@ export const books = [
   {
     id: '7',
     name: 'Os crimes ABC',
-    value: 38.89,
+    value: 8.89,
     autor: 'Agatha Christie',
     editora: 'HarperCollins',
     image: 'https://m.media-amazon.com/images/I/81rqjb5EIdL._SL1500_.jpg',
@@ -60,7 +60,7 @@ export const books = [
   {
     id: '8',
     name: 'O Caçador de Pipas',
-    value: 44.10,
+    value: 14.10,
     autor: 'Khaled Hosseini ',
     editora: 'Globo Livros',
     image: 'https://m.media-amazon.com/images/I/81Ylg3mdxGL._SL1500_.jpg',
@@ -68,7 +68,7 @@ export const books = [
   {
     id: '9',
     name: 'Ciranda de Pedra',
-    value: 39.90,
+    value: 9.90,
     autor: 'Lygia Fagundes Telles',
     editora: 'Cia das Letras',
     image: 'https://m.media-amazon.com/images/I/91dOX6mr9nS._SL1500_.jpg',
@@ -84,7 +84,7 @@ export const books = [
   {
     id: '11',
     name: 'Anna Kariênina',
-    value: 77.98,
+    value: 17.98,
     autor: 'Liev Tolstoi',
     editora: 'Cia das Letras',
     image: 'https://m.media-amazon.com/images/I/61pTISHTptL._SL1457_.jpg',
@@ -100,7 +100,7 @@ export const books = [
   {
     id: '13',
     name: 'Tudo é rio',
-    value: 47.92,
+    value: 12.92,
     autor: 'Carla Madeira',
     editora: 'Record',
     image: 'https://m.media-amazon.com/images/I/816Udvs9O7L._SL1500_.jpg',
@@ -108,7 +108,7 @@ export const books = [
   {
     id: '14',
     name: 'Torto Arado',
-    value: 56.82,
+    value: 16.82,
     autor: 'Itamar Vieira Junior',
     editora: 'Todavia',
     image: 'https://m.media-amazon.com/images/I/61Sor5r12SL._SL1230_.jpg',
@@ -116,7 +116,7 @@ export const books = [
   {
     id: '15',
     name: 'Hibisco Roxo',
-    value: 49.97,
+    value: 39.97,
     autor: 'Chimamanda Ngozi Adichie',
     editora: 'Cia das Letras',
     image: 'https://m.media-amazon.com/images/I/81hobIPsJAL._SL1500_.jpg',
@@ -124,7 +124,7 @@ export const books = [
   {
     id: '16',
     name: 'Em Busca de Mim',
-    value: 46.67,
+    value: 26.67,
     autor: 'Viola Davis',
     editora: 'BestSeller',
     image: 'https://m.media-amazon.com/images/I/91J7EVQy1jL._SL1500_.jpg',
@@ -140,7 +140,7 @@ export const books = [
   {
     id: '18',
     name: 'Mulherzinhas',
-    value: 51.68,
+    value: 11.68,
     autor: 'Louisa May Alcott',
     editora: 'Via Leitura',
     image: 'https://m.media-amazon.com/images/I/81oK5no3iLL._SL1500_.jpg',
