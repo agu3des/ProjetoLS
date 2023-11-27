@@ -4,7 +4,7 @@ export const books = [
   {
     id: '1',
     name: 'O Mundo de Sofia',
-    value: 53.78,
+    value: 13.78,
     autor: 'Jostein Gaarder',
     editora: 'Cia das Letras',
     image: 'https://m.media-amazon.com/images/I/81KfUf8JkcL._SY425_.jpg',
