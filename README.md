@@ -1,12 +1,27 @@
-# Projeto-BIBLION
+<h1 align="center">PROJETO BIBLION - LS</h1>
 
-Descrição:
-Um site de livros, no qual os usuários podem se atualizar acerca de notícias do âmbito literário e receber indicações de leitura.
 
-Inspirações: 
-Sites e aplicativos relacionados a livros, como Skoob e Amazon.
+`"Site Biblion"` - Aplicação que simula um site relacionado a leitura com diversos componentes. 
 
-Funcionalidades: 
+
+## Requisitos
++ `JavaScript`
++ `Supabase`
++ `VS Code`
+
+## Instalação
+1. Verifique se a sua máquina está habilitada para o uso de `JavaScript`.
+2. Instale `Supabase` na sua máquina (caso não tenha).
+3. Baixe ou clone o projeto para o seu computador.
+4. Abra o terminal ou prompt de comando e navegue até o diretório do projeto.
+5. Execute o comando `F5` para iniciar o programa.
+
+
+## Uso
+> Este projeto está sendo desenvolvido na disciplina de `Linguagem de Script`, no curso de Sistemas para Internet no Instituto Federal da Paraíba.
+ `Replit:` https://replit.com/@agu3des/Projeto-Biblion?v=1
+
+## Funcionalidades
 1. Menu de direcionamento da página.
 2. Aba de rolagem dos principais tópicos do site.
 3. Blocos de notícias relacionadas, que ao clicadas, direcionam à fonte da informação.
@@ -15,16 +30,8 @@ Funcionalidades:
 6. Aba de livraria
 7. Página de educação ambiental
 
-Requisitos Mínimos:
-Uma IDE e um navegador instalado.
+### Alunas
 
-Replit:
-https://replit.com/@agu3des/Projeto-Biblion?v=1
-
-Repositório:
-https://github.com/agu3des/Projeto-Biblion
-
-Contato:
-- Ananda Guedes do Ó (20231370020)
-- Angêlica Rita de Araújo (20231370001)
-- Joana Elise Araújo Lopes (20231370003)
+- [Ananda Guedes](https://github.com/agu3des) (20231370020)
+- [Angêlica Araújo](https://github.com/araujo-angel) (20231370001)
+- [Joana Elise](https://github.com/joanaeliseal) (20231370003)
